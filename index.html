@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Prompt Page</title>
+</head>
+<body>
+
+<h1>ChatGPT Prompt Page</h1>
+
+<form onsubmit="submitPrompt(); return false;">
+    <label for="userPrompt">Enter your prompt:</label>
+    <input type="text" id="userPrompt" required>
+    <button type="submit">Submit</button>
+</form>
+
+<div id="chatResponse"></div>
+
+<script>
+    function submitPrompt() {
+        const userPrompt = document.getElementById('userPrompt').value;
+
+        // Send the prompt to the server (you'd need server-side code for this)
+        // Receive the response from the server (mocked here)
+        const chatResponse = "ChatGPT: " + userPrompt.toUpperCase();
+
+        // Display the response
+        document.getElementById('chatResponse').innerText = chatResponse;
+    }
+</script>
+
+</body>
+</html>
