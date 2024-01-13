@@ -12,8 +12,7 @@ This is a basic example demonstrating how to create a simple webpage that intera
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/marcobradley/chatbot-container.git
-    cd openai-chatgpt-example
+    git clone https://github.com/marcobradley/chatgpt-chatbot-container.git
     ```
 
 2. Install dependencies:
